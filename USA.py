@@ -1,7 +1,7 @@
 import Player
+from operator import itemgetter, attrgetter
 from xlrd import *
 from xlwt import *
-from tempfile import TemporaryFile
 
 def spacer (string, length):
     ''' get a string and return a string that is length spaces long and 
@@ -163,7 +163,7 @@ def write_data (game_roster, output):
         player.flow = player.throwing_per * player.catching_per/100
         
     game_roster_sorted = sorted(
-        game_roster, key=attrgetter ('flow', 'catching_per'), reverse=True)    
+        game_roster, key=attrgetter('flow', 'catching_per'), reverse=True)    
     output_file = Workbook ()    
     analysis_sheet = output_file.add_sheet(
         'Created Statistics - PYTHON', cell_overwrite_ok=True)
@@ -186,8 +186,7 @@ def write_data (game_roster, output):
             analysis_sheet.write(x + 1, 12, game_roster_sorted[x].plus_minus)
             
     output_file.save(output)
-    output_file.save(TemporaryFile())
-
+    
 def grab_data(roster, game):
     '''
     roster and game are open rewritable text files. Grab files and create player
