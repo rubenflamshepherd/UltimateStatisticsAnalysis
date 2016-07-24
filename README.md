@@ -11,8 +11,8 @@ First line/possession in a point is just the players on the field.
 Points are separated by lines contains a single '#'.
 Players are noted within a single possession as three letter acronyms.
 Players are separated within a possession by a dash.
-  Example: Rub-Chr-Tif 
-  - Indicated Rub threw to Chr attempted to throw to Tif (incomplete)
+  - Example: Rub-Chr-Tif 
+    - Indicates Rub threw to Chr who attempted to throw to Tif (incomplete)
 
 Last pair of acronyms indicate players who were involved in turning the disc over.
 If a point is scored then the possession ends in '-p' If a point ends a game then the possession ends in '-g'
