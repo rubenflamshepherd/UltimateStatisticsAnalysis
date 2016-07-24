@@ -12,8 +12,14 @@ Points are separated by lines contains a single '#'.
 Players are noted within a single possesssion as three letter acronyms.
 Players are seperated within a possession by a dash.
   Example: Rub-Chr-Tif 
-  - Indicated Rub threw to Chr attempted to throw to Tif (incomplete) 
+  - Indicated Rub threw to Chr attempted to throw to Tif (incomplete)
+
 Last pair of acronyms indicat players who were invovled in turning the disc over.
 If a point is scored then the possession ends in '-p' If a point ends a game then the possession ends in '-g'
+
+Versions:
+Python 2.7.2
+xlrd 0.9.2
+xlwt 0.7.5
 
 Enjoy!
