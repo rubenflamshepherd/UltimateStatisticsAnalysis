@@ -15,11 +15,12 @@ Players are separated within a possession by a dash.
     - Indicates Rub threw to Chr who attempted to throw to Tif (incomplete)
 
 Last pair of acronyms indicate players who were involved in turning the disc over.
-If a point is scored then the possession ends in '-p' If a point ends a game then the possession ends in '-g'
+If a point is scored then the possession ends in '-p'.
+If a point ends a game then the possession ends in '-g'.
 
 Versions:
-Python 2.7.5
-xlrd 0.9.2
-xlwt 0.7.5
+(Python 2.7.5)
+(xlrd 0.9.2)
+(xlwt 0.7.5)
 
 Enjoy!
